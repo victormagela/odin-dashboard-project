@@ -3,3 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    line-height: 1.5;
+}
+
+header {
+    background-color: green;
+    height: 33.3%;
+}
+
+.side-bar {
+    background-color: blue;
+    height: 33.3%;
+}
+
+main {
+    background-color: red;
+    height: 33.3%;
+}
