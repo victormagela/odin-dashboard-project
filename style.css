@@ -7,19 +7,21 @@
 body {
     height: 100vh;
     line-height: 1.5;
+    display: grid;
+    grid-template: 1fr 4fr / 1fr 5fr;
 }
 
 header {
     background-color: green;
-    height: 33.3%;
+    grid-area: 1/ 2 / span 1 / span 1;
 }
 
 .side-bar {
     background-color: blue;
-    height: 33.3%;
+    grid-area: 1 / 1 / span 2 / span 1;
 }
 
 main {
     background-color: red;
-    height: 33.3%;
+    grid-area: 2 / 2 / span 1 / span 1;
 }
