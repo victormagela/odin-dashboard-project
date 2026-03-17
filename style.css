@@ -197,6 +197,9 @@ main {
     background-color: transparent;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
 }
 
 .projects {
@@ -205,4 +208,12 @@ main {
 
 .main-aside {
     grid-column: 2 / span 1;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    grid-auto-rows: min-content;
+    align-items: start;
 }
