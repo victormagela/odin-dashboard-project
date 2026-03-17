@@ -136,7 +136,8 @@ input:focus {
     gap: 8px;
 }
 
-.user-profile img {
+.user-profile img,
+.trending-item img {
     height: 3rem;
     width: 3rem;
     border-radius: 9999px;
