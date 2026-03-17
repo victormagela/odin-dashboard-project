@@ -196,7 +196,7 @@ button:active {
 main {
     background-color: transparent;
     display: grid;
-    grid-template: 3fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 .projects {
