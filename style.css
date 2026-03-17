@@ -3,6 +3,7 @@
     --light-grey-background: #e2e8f0;
     --soft-elevated-card: 0 10px 30px oklch(0.3 0.02 260 / 0.2);
     --card-accent-color: oklch(80.4% 0.156 82.5);
+    --card-text-color: oklch(0.5 0 0);
 }
 
 * {
@@ -220,6 +221,10 @@ main {
     align-items: start;
 }
 
+.section-title{
+    font-weight: 500;
+}
+
 .card {
     background-color: oklch(1 0 0);
     padding: 30px 20px;
@@ -233,4 +238,13 @@ main {
     justify-content: flex-end;
     margin-top: 16px;
     gap: 20px;
+}
+
+.card .card-title {
+    font-size: 1.2rem;
+}
+
+.card .card-text {
+    color: var(--card-text-color);
+    font-size: 1rem;
 }
