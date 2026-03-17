@@ -1,6 +1,7 @@
 :root {
     --light-blue-background: #1992d4;
     --light-grey-background: #e2e8f0;
+    --soft-elevated-card: 0 10px 30px oklch(0.3 0.02 260 / 0.2);
 }
 
 * {
@@ -216,4 +217,18 @@ main {
     gap: 20px;
     grid-auto-rows: min-content;
     align-items: start;
+}
+
+.card {
+    background-color: oklch(1 0 0);
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: var(--soft-elevated-card);
+}
+
+.card .card-link-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    gap: 20px;
 }
