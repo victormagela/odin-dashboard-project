@@ -2,6 +2,7 @@
     --light-blue-background: #1992d4;
     --light-grey-background: #e2e8f0;
     --soft-elevated-card: 0 10px 30px oklch(0.3 0.02 260 / 0.2);
+    --card-accent-color: oklch(80.4% 0.156 82.5);
 }
 
 * {
@@ -223,6 +224,7 @@ main {
     background-color: oklch(1 0 0);
     padding: 30px 20px;
     border-radius: 10px;
+    border-left: solid 8px var(--card-accent-color);
     box-shadow: var(--soft-elevated-card);
 }
 
