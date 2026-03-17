@@ -195,4 +195,14 @@ button:active {
 
 main {
     background-color: transparent;
+    display: grid;
+    grid-template: 3fr 1fr;
+}
+
+.projects {
+    grid-column: 1 / span 1;
+}
+
+.main-aside {
+    grid-column: 2 / span 1;
 }
